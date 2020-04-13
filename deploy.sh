@@ -1,3 +1,4 @@
 #!/bin/bash
-cp .gitconfig ~/.gitconfig
+./gitconfig_create.py
+mv .gitconfig ~/.gitconfig
 cp .vimrc ~/.vimrc
